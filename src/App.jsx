@@ -52,7 +52,7 @@ function App() {
   }
   return (
     <>
-<header><img src="./images/logo.svg" alt=""/></header>
+<header><img src="../public/images/logo.svg" alt=""/></header>
     <div className="general-wrapper">
       <Inputs
         values={values}
