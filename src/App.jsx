@@ -52,7 +52,7 @@ function App() {
   }
   return (
     <>
-<header><img src="../public/images/logo.svg" alt=""/></header>
+<header><img src="/images/logo.svg" alt="logo"/></header>
     <div className="general-wrapper">
       <Inputs
         values={values}
@@ -68,7 +68,11 @@ function App() {
         reset={reset}
         values={values}
       />
+      
     </div>
+    <div className="whatsapp">
+        <button> <a target='_blank' href="https://wa.me/+51955112484/?text=vengo desde la pc">WhatsApp</a></button>
+      </div>
     </>
   )
 }

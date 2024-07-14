@@ -199,3 +199,28 @@ input:focus {
 .act {
   display: inline;
 }
+
+.whatsapp {
+  display: flex;
+  justify-content: center;
+}
+
+.whatsapp button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 130px;
+  margin-block: 20px;
+background-color: #017561;
+border-radius: 15px 95px 110px 95px;
+}
+.whatsapp a{
+  color: #f3f8fb;
+  text-decoration: none;
+}
+
+.whatsapp a::after{
+  color:aquamarine;
+  text-decoration: none;
+}
